@@ -1,2 +1,3 @@
 # SaltFreeMan
-saltstack管理工具 saltadmin 系统初始化 运维管理平台
+
+![Image](https://github.com/honglongwei/SaltFreeMan/blob/master/images/SaltFreeMan_index.jpg)

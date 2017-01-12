@@ -1,0 +1,42 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>demo_ajax</title>
+
+
+</head>
+
+<body>
+
+<h1>登录</h1>
+<small>本网页展示了使用HTML DOM来访问HTML元素最常用的方法</small>
+<hr/>
+
+Account &nbsp;<input type="text" id="account" value="15515"><br/>
+Password <input type="password" id="pwd" value="123456"><br/>
+<script>.$("#account").val()</script>
+<input type="button" value="Show Values" onclick="getElement()">
+<hr/>
+<p id="show"></p>
+
+<!-- <script>
+    function tes() {
+    var a = document.getElementById("account").value;
+    var p = document.getElementById("pwd").value;
+    console.log(a);
+    alert(p);
+  /*  function getValue() {
+        document.getElementById("show").innerHTML = "Account: " + a + "<br/>" + "Password: " + p;
+    }*/
+</script> -->
+
+<script>
+function getElement(account) 
+{ 
+return typeof account=='string'?document.getElementById(account):account; 
+console.log(account);
+} 
+</script>
+
+</body>
+</html>

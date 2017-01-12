@@ -1,0 +1,36 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>demo_ajax</title>
+
+
+</head>
+
+<script src="/static/js/1.js"></script>
+ </head>   
+<br>
+<br>
+<br>
+<div>
+<body>
+<select multiple="multiple"  style="width:200px;" size="10" id="ops">
+  <option value ="volvo">Volvo</option>
+  <option value ="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+<br>
+<br>
+<br>
+<input type="text" id="input" value="IP地址" />
+</div>
+<br>
+<br>
+<button type="button" value="输入" onclick="record()" >确认</button>
+
+<div id="result"></div> 
+</body>
+
+
+
+</html>
